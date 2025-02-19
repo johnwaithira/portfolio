@@ -1,6 +1,6 @@
 # My First react portfolio
 
-[Check it out](johnwaithira.vercel.app)
+[Check it out](https://johnwaithira.vercel.app)
 
 > This is my first portfolio in react js 
 
