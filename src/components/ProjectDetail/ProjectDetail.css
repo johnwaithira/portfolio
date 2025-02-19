@@ -1,0 +1,115 @@
+.project-detail-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.project-banner{
+    height: 300px;
+    /* width: 50%; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+.project-banner-title{
+    padding: 20px;
+}
+.project-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.project-links{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.project-links a{
+    background: #c4c2c253;
+    color: #000000;
+    border-radius: 20px;
+    padding:0 10px;
+
+}
+
+.prevBackBtn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.prevBackBtn button{
+    cursor: pointer;
+    background: transparent;
+    padding: 2px 10px;
+    border-radius: 20px;
+    border: 1px solid slateblue;
+}
+
+.project-stacks{
+    padding: 20px 0 10px 0;
+    /* background: #dfb; */
+    margin: 20px 0 10px 0;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+.project-stacks .stack{
+    background: #05a9415a;
+    padding: 2px 20px;
+    border-radius:5px   20px  20px 10px;
+    
+}
+
+.description small strong{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 150%;
+    padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.description p{
+    line-height: 30px;
+    padding: 0 10px;
+
+}
+.description ul li{
+    padding: 5px;
+}
+
+@media (max-width: 600px){
+    .project-banner{
+        height: 150px;
+    }
+    .project-title{
+        font-size: 150%;
+        padding-top: 20px;
+    }
+    .project-banner-title{
+        padding: 0;
+    }
+    .project-stacks{
+        padding: 5px 0 0 0;
+        margin: 10px 0 10px 0;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+    .project-stacks .stack{
+        padding: 2px 10px;
+        font-size: 70%;        
+    }
+    .prevBackBtn button{
+        cursor: pointer;
+        background: transparent;
+        padding: 2px 10px;
+        font-size: 80%;
+        border-radius: 20px;
+        border: 1px solid slateblue;
+    }
+}

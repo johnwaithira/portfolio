@@ -1,0 +1,57 @@
+.project-item-card{
+    padding: 10px;
+    height: fit-content;
+    animation: fadeIn  1s ease-in-out;
+}
+.project-div{
+    /* margin: 20px; */
+    border-radius: 10px;
+    padding: 20px;
+    background: #c9c8c84a;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+.project-description{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.project-stack{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    overflow: scroll !important;
+    flex-wrap: wrap;
+}
+.project-stack .stack-div{
+    background: #ffffff;
+    margin: 2px 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    
+}
+.stack-item{
+    font-size: 11px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-link, .stack-item{
+    font-size: 11px;}
+.project-link{
+    display: flex;
+    color: blue;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+@media screen {
+    
+}

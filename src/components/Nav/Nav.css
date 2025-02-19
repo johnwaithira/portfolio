@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+.close{
+    background: #ffffff;
+    justify-content: center;
+    height: 30px;
+    border-radius: 50%;
+}
+.close, .navigation{
+    display: flex;
+}
+
+.close , .toogle-menu{
+    cursor: pointer;
+    display: none;
+}
+.close img{
+    padding: 7px;
+}
+.show-menu{
+    left: 0 !important;
+}
+.navigation{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.toogle-menu .dot{
+    @apply bg-emerald-600 ;
+    height: 3px;
+   
+}
+.toogle-menu .dot, .close{
+    width: 30px;
+}
+.middle{
+    margin: 7px 0;
+    width: 20px !important;
+    margin-left: 10px;
+}
+@media(max-width:992px){
+    .toogle-menu, .close{
+        display: block;
+    }
+    .close{
+        z-index:10000;
+        right: 30px;
+    }
+    .close, .nav-link-style{
+        transition: all 0.3s ease-in;
+        position: absolute;
+    }
+    .nav-link-style {
+        left: -100vw;
+        top: 0;
+        width: 100vw;
+        background: white;
+        height: 100vh;
+        padding: 30px;
+        /* @apply bg-[#fffdfd] dark:bg-black; */
+    }    
+
+    body.dark .nav-link-style{
+        background: rgb(0, 0, 0);
+    }
+
+    .nav-link-style ul{
+        width: max-content; 
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
+    } 
+}
+
+

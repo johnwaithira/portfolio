@@ -1,0 +1,23 @@
+.project-category{
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+}
+.project-category ::-webkit-scrollbar{
+    display: none !important;
+    width: 0;
+}
+.project-category button{
+    border: .5px solid rgba(128, 128, 128, 0.226);
+    width: max-content;
+    padding: 5px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 70%;
+    font-weight: 600;
+    transition: .3s ease;
+}
+.active, .project-category button:hover{
+    background: #242424;
+    color: white;}

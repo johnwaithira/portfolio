@@ -1,0 +1,2 @@
+API calls, utility functions, or any external services (like Firebase, authentication, etc.) should be placed here.
+This helps centralize logic related to interacting with external data sources.

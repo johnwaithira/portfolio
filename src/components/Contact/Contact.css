@@ -1,0 +1,13 @@
+.contact-component{
+    padding: 10px;
+    box-shadow:5px 4px 12px rgba(1, 44, 44, 0.116);
+    margin: 10px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+}
+.contact-component img{
+    background: #9c9a9ae8;
+    border-radius: 50%;
+}
