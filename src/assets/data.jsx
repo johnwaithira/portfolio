@@ -52,9 +52,9 @@ export const my_contact = [
     ,
     {
         contact_name : "Github",
-        contact_value : "johnwaithira",
+        contact_value : "waithirajohn",
         contact_icon : x_icon,
-        contact_value_link :   `https://github.com/johnwaithira`
+        contact_value_link :   `https://github.com/waithirajohn`
 
     },
     {
