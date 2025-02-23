@@ -38,7 +38,7 @@ export const default_links = [
 export const my_contact = [
     {
         contact_name : "Phone",
-        contact_value : "+254725354504",
+        contact_value : "+254726354504",
         contact_icon : facebook_icon,
         contact_value_link :   `tel:+254725354504`
     }
